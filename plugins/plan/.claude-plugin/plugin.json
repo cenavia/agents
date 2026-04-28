@@ -1,0 +1,26 @@
+{
+  "name": "plan",
+  "version": "1.1.0",
+  "description": "Pipeline completo de planificación de producto: ideación → PRD → User Stories → Backlog → Épicas → Tickets técnicos. Incluye agentes especializados por rol (Product Owner, Business Analyst, Tech Lead).",
+  "author": {
+    "name": "consultor",
+    "email": "cenaviat@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "product-management",
+    "planning",
+    "user-stories",
+    "prd",
+    "backlog",
+    "epics",
+    "tickets",
+    "bdd",
+    "product-owner",
+    "business-analyst",
+    "tech-lead"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "commands": "./commands/"
+}

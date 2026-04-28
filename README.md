@@ -7,4 +7,4 @@ Repositorio personal de plugins y agentes para Claude Code.
 
 ## Plugins disponibles
 
-_Próximamente..._
+- **plan**: Pipeline completo de planificación de producto (ideación → PRD → User Stories → Backlog → Épicas → Tickets técnicos)
