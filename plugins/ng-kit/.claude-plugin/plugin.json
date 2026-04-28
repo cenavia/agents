@@ -1,0 +1,14 @@
+{
+  "name": "ng-kit",
+  "version": "1.2.0",
+  "description": "Angular development toolkit: scaffold landing pages, create apps, build features, review code, migrate to signals, write tests, and fix builds.",
+  "author": {
+    "name": "Angular Team @ Google",
+    "url": "https://angular.dev"
+  },
+  "license": "MIT",
+  "keywords": ["angular", "typescript", "frontend", "signals", "cli"],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "commands": "./commands/"
+}

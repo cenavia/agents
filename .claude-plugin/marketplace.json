@@ -8,6 +8,12 @@
       "version": "1.1.0",
       "description": "Pipeline completo de planificación de producto: ideación → PRD → User Stories → Backlog → Épicas → Tickets técnicos. Incluye agentes especializados por rol (Product Owner, Business Analyst, Tech Lead).",
       "path": "../plan"
+    },
+    {
+      "name": "ng-kit",
+      "version": "1.2.0",
+      "description": "Angular development toolkit: scaffold landing pages, create apps, build features, review code, migrate to signals, write tests, and fix builds.",
+      "path": "plugins/ng-kit"
     }
   ]
 }
