@@ -1,0 +1,10 @@
+{
+  "name": "python-dev",
+  "version": "1.0.0",
+  "description": "Toolkit for production Python development. Scaffolding, feature generation, auth, observability, testing, and CI/CD for FastAPI, Django, and GraphQL projects.",
+  "author": {
+    "name": "Carlos Navia",
+    "email": "cenaviat@gmail.com"
+  },
+  "keywords": ["python", "fastapi", "django", "graphql", "testing", "docker", "ci-cd", "observability", "uv", "ruff"]
+}
