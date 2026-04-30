@@ -9,3 +9,6 @@ Repositorio personal de plugins y agentes para Claude Code.
 
 - **plan**: Pipeline completo de planificación de producto (ideación → PRD → User Stories → Backlog → Épicas → Tickets técnicos)
 - **ng-kit**: Toolkit Angular — landing, apps, features, revisión de código, migración a signals, tests y builds
+- **ai-dev**: Toolkit de IA — LangGraph, RAG, prompts, búsqueda vectorial y evaluación de LLMs
+- **ui-design**: Diseño UI/UX — móvil (iOS, Android, React Native), web, sistemas de diseño y accesibilidad
+- **python-dev**: Toolkit Python — scaffolding, features, auth, observabilidad, tests y CI/CD (FastAPI, Django, GraphQL)

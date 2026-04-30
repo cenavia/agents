@@ -1,6 +1,6 @@
 {
   "name": "mi-marketplace",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Mis agentes especializados para Claude Code",
   "plugins": [
     {
@@ -14,6 +14,24 @@
       "version": "1.2.0",
       "description": "Angular development toolkit: scaffold landing pages, create apps, build features, review code, migrate to signals, write tests, and fix builds.",
       "path": "plugins/ng-kit"
+    },
+    {
+      "name": "ai-dev",
+      "version": "1.1.0",
+      "description": "Toolkit de IA orientado a producción: agentes LangGraph, RAG, ingeniería de prompts, búsqueda vectorial y evaluación de LLMs.",
+      "path": "plugins/ai-dev"
+    },
+    {
+      "name": "ui-design",
+      "version": "1.0.3",
+      "description": "Diseño UI/UX para móvil (iOS, Android, React Native) y web: sistemas de diseño, accesibilidad y patrones modernos.",
+      "path": "plugins/ui-design"
+    },
+    {
+      "name": "python-dev",
+      "version": "1.0.0",
+      "description": "Toolkit Python de producción: scaffolding, features, auth, observabilidad, testing y CI/CD para FastAPI, Django y GraphQL.",
+      "path": "plugins/python-dev"
     }
   ]
 }
