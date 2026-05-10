@@ -32,6 +32,12 @@
       "version": "1.0.0",
       "description": "Toolkit Python de producción: scaffolding, features, auth, observabilidad, testing y CI/CD para FastAPI, Django y GraphQL.",
       "path": "plugins/python-dev"
+    },
+    {
+      "name": "ds-angular-storybook",
+      "version": "1.0.0",
+      "description": "Angular Design System generator powered by PRD. From a Product Requirements Document, generates complete design systems: tokens, components (atoms → organisms), layout system, Storybook catalog, and Jest tests.",
+      "path": "plugins/ds-angular-storybook"
     }
   ]
 }

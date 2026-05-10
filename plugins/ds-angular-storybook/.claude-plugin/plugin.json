@@ -1,0 +1,25 @@
+{
+  "name": "ds-angular-storybook",
+  "version": "1.0.0",
+  "description": "Angular Design System generator powered by PRD. From a Product Requirements Document, generates complete design systems: tokens, components (atoms → organisms), layout system, Storybook catalog, and Jest tests.",
+  "author": {
+    "name": "Contex DS Team",
+    "email": "cenaviat@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "design-system",
+    "storybook",
+    "design-tokens",
+    "component-library",
+    "prd",
+    "ui-kit",
+    "scss",
+    "accessibility",
+    "jest"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "commands": "./commands/"
+}
