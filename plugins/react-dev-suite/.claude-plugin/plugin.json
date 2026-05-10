@@ -1,0 +1,29 @@
+{
+  "name": "react-dev-suite",
+  "version": "1.5.0",
+  "description": "Professional React development toolkit covering React 18/19, TypeScript, hooks, state management, routing, data fetching, forms, validation, styling (Tailwind + MUI), performance, testing, SSR, build tools, and migration patterns.",
+  "author": {
+    "name": "React Dev Suite",
+    "email": "cenaviat@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "hooks",
+    "state-management",
+    "routing",
+    "forms",
+    "tailwindcss",
+    "material-ui",
+    "testing",
+    "vitest",
+    "performance",
+    "vite",
+    "react-19",
+    "migration"
+  ],
+  "commands": "./commands",
+  "skills": "./skills",
+  "agents": "./agents"
+}
