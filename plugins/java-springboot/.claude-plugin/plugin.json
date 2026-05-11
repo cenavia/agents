@@ -1,0 +1,17 @@
+{
+  "name": "java-springboot",
+  "version": "1.1.0",
+  "description": "Comprehensive Java and Spring Boot development toolkit. Covers Spring Boot 3.x/4.x, Spring Cloud, Spring Security, Spring Data, reactive programming, messaging, testing, DevOps, and AI integration for professional Java enterprise development.",
+  "author": {
+    "name": "Java Spring Boot Plugin",
+    "email": "cenaviat@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "java", "spring-boot", "spring-cloud", "spring-security", "spring-data",
+    "microservices", "rest-api", "kafka", "docker", "testing", "hexagonal-architecture"
+  ],
+  "commands": "./commands/",
+  "skills": "./skills/",
+  "agents": "./agents/"
+}

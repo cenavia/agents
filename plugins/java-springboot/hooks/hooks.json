@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "If a Java or Spring Boot file was just created or edited, silently verify it follows: (1) proper package structure, (2) Spring Boot conventions, (3) no obvious security issues. Only report if there's a critical issue."
+          }
+        ]
+      }
+    ]
+  }
+}
