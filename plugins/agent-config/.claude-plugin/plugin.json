@@ -1,0 +1,23 @@
+{
+  "name": "agent-config",
+  "version": "1.0.0",
+  "description": "Generates and manages the full agent/sub-agent configuration for any project following the agentskills.io standard. Scaffolds AGENTS.md files, SKILL.md stubs, setup.sh, sync tooling, and multi-AI-assistant support (Claude Code, Codex, Gemini, Copilot).",
+  "author": {
+    "name": "agent-config-plugin",
+    "url": "https://agentskills.io"
+  },
+  "license": "MIT",
+  "keywords": ["agents", "skills", "scaffold", "AGENTS.md", "agentskills", "claude-code", "sub-agents"],
+  "repository": "https://github.com/your-org/agent-config-plugin",
+  "hooks": "./hooks/hooks.json",
+  "userConfig": {
+    "project_name": {
+      "description": "Name of your project (used in generated AGENTS.md headers)",
+      "sensitive": false
+    },
+    "default_scope": {
+      "description": "Default scope for new skills: root | ui | api | sdk (default: root)",
+      "sensitive": false
+    }
+  }
+}

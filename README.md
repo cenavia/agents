@@ -14,3 +14,6 @@ Repositorio personal de plugins y agentes para Claude Code.
 - **python-dev**: Toolkit Python — scaffolding, features, auth, observabilidad, tests y CI/CD (FastAPI, Django, GraphQL)
 - **ds-angular-storybook**: Design system Angular desde PRD — tokens, componentes (átomos → organismos), layout, catálogo Storybook y tests Jest
 - **code-documentation**: Documentación técnica — generación de docs, explicación de código, redacción técnica y creación de tutoriales
+- **agent-config**: Configuración de agentes/subagentes (agentskills.io) — scaffold de AGENTS.md, skills, setup, sync y soporte multi-asistente (Claude Code, Codex, Gemini, Copilot)
+- **react-dev-suite**: Toolkit React profesional — React 18/19, TypeScript, hooks, estado, routing, formularios, estilos, tests, SSR y migración
+- **java-springboot**: Toolkit Java/Spring Boot — Spring Boot 3.x/4.x, Cloud, Security, Data, reactivo, mensajería, tests y DevOps

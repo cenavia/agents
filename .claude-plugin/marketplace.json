@@ -1,13 +1,13 @@
 {
   "name": "mi-marketplace",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "description": "Mis agentes especializados para Claude Code",
   "plugins": [
     {
       "name": "plan",
       "version": "1.1.0",
       "description": "Pipeline completo de planificación de producto: ideación → PRD → User Stories → Backlog → Épicas → Tickets técnicos. Incluye agentes especializados por rol (Product Owner, Business Analyst, Tech Lead).",
-      "path": "../plan"
+      "path": "plugins/plan"
     },
     {
       "name": "ng-kit",
@@ -44,6 +44,24 @@
       "version": "1.2.0",
       "description": "Documentation generation, code explanation, and technical writing with automated doc generation and tutorial creation",
       "path": "plugins/code-documentation"
+    },
+    {
+      "name": "agent-config",
+      "version": "1.0.0",
+      "description": "Genera y gestiona la configuración completa de agentes/subagentes según agentskills.io: AGENTS.md, skills, setup.sh, sync y soporte multi-asistente (Claude Code, Codex, Gemini, Copilot).",
+      "path": "plugins/agent-config"
+    },
+    {
+      "name": "react-dev-suite",
+      "version": "1.5.0",
+      "description": "Professional React development toolkit covering React 18/19, TypeScript, hooks, state management, routing, data fetching, forms, validation, styling (Tailwind + MUI), performance, testing, SSR, build tools, and migration patterns.",
+      "path": "plugins/react-dev-suite"
+    },
+    {
+      "name": "java-springboot",
+      "version": "1.1.0",
+      "description": "Comprehensive Java and Spring Boot development toolkit. Covers Spring Boot 3.x/4.x, Spring Cloud, Spring Security, Spring Data, reactive programming, messaging, testing, DevOps, and AI integration for professional Java enterprise development.",
+      "path": "plugins/java-springboot"
     }
   ]
 }
