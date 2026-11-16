@@ -280,7 +280,7 @@ Los skills se activan solos según lo que estés escribiendo. No necesitas invoc
 
 | Código que escribes | Skill que se activa |
 |---------------------|---------------------|
-| `StateGraph(`, `add_node(`, `add_edge(` | `langgraph-core` |
+| `StateGraph(`, `add_node(`, `add_edge(` | `langgraph-core` (`langgraph-fundamentals`) |
 | `InMemorySaver`, `PostgresSaver`, `thread_id` | `langgraph-persistence` |
 | `interrupt(`, `Command(resume=` | `langgraph-hitl` |
 | `VectorStore`, `as_retriever(`, `similarity_search` | `rag` |
@@ -288,9 +288,13 @@ Los skills se activan solos según lo que estés escribiendo. No necesitas invoc
 | `BM25`, `hybrid`, `alpha=` | `hybrid-search` |
 | `hnsw`, `ef_construction`, `quantization` | `vector-tuning` |
 | `chain_of_thought`, `few_shot`, `system_prompt` | `prompt-patterns` |
-| `langsmith`, `@traceable`, `LANGCHAIN_TRACING` | `langsmith` |
+| `langsmith`, `@traceable`, `LANGCHAIN_TRACING` | `langsmith-trace` |
 | `evaluate(`, `ragas`, `LangChainStringEvaluator` | `llm-eval` |
-| `pip install langchain`, `pyproject.toml` | `ai-setup` |
+| `pip install langchain`, `pyproject.toml` | `ai-setup` (`langchain-dependencies`) |
+| FastMCP / servidor MCP (`@mcp.tool`) | `mcp-builder` (oficial Anthropic) |
+| stack LangChain / Deep Agents / LangGraph | `langchain-build-agent` (oficial LangChain) |
+| tracing / monitoring de agentes | `langchain-agent-tracing`, `langchain-agent-monitoring` |
+| evals / datasets LangSmith | `langchain-eval-engineering`, `langsmith-dataset`, `langsmith-evaluator` |
 
 ---
 
